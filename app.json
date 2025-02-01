@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "React Native To Do app",
+    "slug": "react-native-to-do-app-wndriwizcn1rrp2ye1zyt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deepanakash2000.reactnativetodoappwndriwizcn1rrp2ye1zyt"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.deepanakash2000.reactnativetodoappwndriwizcn1rrp2ye1zyt"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78024cec-b06f-405d-993e-bde8ef34c125"
+      }
+    },
+    "owner": "deepanakash2000",
+    "updates": {
+      "url": "https://u.expo.dev/78024cec-b06f-405d-993e-bde8ef34c125"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
