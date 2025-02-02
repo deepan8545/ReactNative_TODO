@@ -18,7 +18,7 @@ export default function TabOneScreen() {
   useEffect(() => {
     // Set the title for this screen
     navigation.setOptions({
-      title: 'To-Do Tasks', // This will change the title to "To-Do Tasks"
+      title: 'To-Do Tasks', 
     });
 
     const loadItems = async () => {
